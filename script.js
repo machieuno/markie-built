@@ -2,8 +2,11 @@ window.addEventListener("load", () => {
 const intro = document.getElementById("intro");
 
 setTimeout(() => {
+intro.style.opacity = "0";
+setTimeout(() => {
 intro.style.display = "none";
-}, 3000);
+}, 500);
+}, 2500);
 });
 
 /* smooth scroll */
